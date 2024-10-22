@@ -1,0 +1,273 @@
+
+html{
+    width: 1440px;
+    height: 7433px;
+    top: -1955px;
+    left: 1211px;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 30px;
+
+ 
+    
+    header{
+        
+    display: flex;
+    justify-content: space-around;
+    font-family: 'SF Pro Display', sans-serif;
+    box-shadow: 0px 4px 15px 0px rgba(60, 72, 13, 0.05);
+
+    .logo{
+        margin-left:143px;
+    }
+    .navigation {
+        display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          gap: 59px;
+          margin-left: 142px;
+          margin-right: 38px;
+    }
+         
+         
+     .menu-item{
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+        gap: 10px;
+     
+     }
+         
+     .office{
+         display: flex;
+         align-items: center;
+         gap: 12px;
+         margin-right: 118px;
+    }
+}
+
+ 
+    
+.main {
+    display: flex;
+    width: 100%; 
+    max-width: 1165px; 
+    height: 500px;
+    margin: 0 auto; 
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15), 
+                -2px -2px 5px 0px rgba(0, 0, 0, 0.15);
+    overflow: hidden; 
+}
+
+.minimain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'SF Pro Display', sans-serif;
+    padding-left: 98px;
+    gap: 95px;
+}
+
+
+
+.divtext{
+    display: flex;
+    flex-direction: column;
+    margin-top: 124px;
+    gap: 24px;
+   
+}
+
+.button1 {
+
+    button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    width: 265px;
+    margin-left: 0;
+    margin-bottom: 64px;
+    background-color: white;
+    border-radius: 6px;
+    border-width:  1px;
+    box-shadow: 0px 2px 18px 0px rgba(74, 96, 122, 0.15),
+                0px -2px 18px 0px rgba(74, 96, 122, 0.15)
+    }
+}
+
+.image {
+    width: auto;
+    height: 100%;
+    max-width: 706px;
+    object-fit: contain; 
+}
+
+
+.main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 965px;
+    height: 322px;
+    margin-left: 238px;
+
+
+
+    .container{
+        display: flex;
+        gap: 20px;
+    }
+
+}
+
+}
+
+.block-item {
+    background-color: black;
+    height: 10px;
+    width: 60;
+}
+
+.insurance{
+    width: 965px;
+    height: 322px;
+  
+    margin-top: 108px;
+    font-family: 'SF Pro Display', sans-serif;
+    margin-left: 238px;
+    gap: 49px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+    .divcon{
+        display: flex;
+        gap: 35px;
+        
+        .rectangle { 
+        width: 165px;
+        height: 216px;
+       
+        margin-top: 10px;
+        background-color: #DDD0A4;
+        display: flex;
+        align-items: flex-end;
+        border-radius: 20px;
+
+    
+        
+    }  
+    .rectangle {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        row-gap: 20px; 
+    }
+    
+    .subrectangle {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        width: 165px;
+        height: 190px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15),
+                    -2px -2px 5px 0px rgba(0, 0, 0, 0.15);
+        gap: 21px;
+    }
+    
+    img {
+        width: 69px;
+        height: 69px;
+        margin-bottom: 10px;
+    }
+    }
+}
+
+.conditions{
+    width: 1077px;
+    height: 1574px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 109px;
+    margin-left: 167px;
+    margin-right: 199px;
+
+    
+
+    .frame{
+        margin-top: 115px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .images{
+        display: flex;
+        flex-direction: row;
+        margin-left: 3px;
+        margin-right: 127px;
+        gap: 70px;
+    }
+
+    .images2{
+        display:flex;
+        flex-direction: row-reverse;
+        gap: 334px;
+        
+    }
+
+    .frame2{
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        margin-top: 159px;
+    
+    
+    
+    .icons2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 27px;
+    }}
+
+
+    .divimage3{
+        display: flex;
+        flex-direction: row;
+       
+       
+
+    }
+}
+
+footer {
+    background-color: #4A607A;
+    width: 1440px;
+    Height: 587px;
+    margin-top: 6846px;
+
+    .navigation2{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .navigation3{
+        display: flex;
+        flex-direction: column;
+        }
+
+}
